@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+pydantic
+geojson
+folium
+requests
+ping3
+pysnmp
+python-multipart
