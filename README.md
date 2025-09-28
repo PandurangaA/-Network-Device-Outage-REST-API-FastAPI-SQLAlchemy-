@@ -1,6 +1,12 @@
 # -Network-Device-Outage-REST-API-FastAPI-SQLAlchemy-
 "I designed and built a REST API for device inventory, live health checks, and outage tracking with automated uptime metrics.”
 
+Features 
+ CRUD for devices (router/switch/tower/firewall) with geo (lat/lon). 
+ POST outages, close outages; compute uptime % by device.
+ Health checks: scheduled ping/SNMP to auto-open/close outages.
+ Geo export (GeoJSON) → view in QGIS or on a Folium map. how to run this project and what i need to install for run project with souce code i need
+
 network-device-outage-api/
 │
 ├── main.py              # FastAPI entrypoint
